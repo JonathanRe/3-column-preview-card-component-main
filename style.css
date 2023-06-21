@@ -50,16 +50,19 @@ svg {
 
 .orange {
     --_shade: var(--clr-orange-400);
-    background-color: var(--_shade);
 }
 
 .cyan {
     --_shade: var(--clr-cyan-400);
-    background-color: var(--_shade);
 }
 
 .teal {
     --_shade: var(--clr-teal-400);
+}
+
+.orange,
+.cyan,
+.teal {
     background-color: var(--_shade);
 }
 
@@ -118,14 +121,8 @@ main > div {
     }
 }
 
-.orange button {
-    color: var(--_shade);
-}
-
-.cyan button {
-    color: var(--_shade);
-}
-
+.orange button,
+.cyan button,
 .teal button {
     color: var(--_shade);
 }
